@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap');
+
+.P0{
+    padding: 0px;
+}
+
+.nav-item{
+    padding: 5px 5px;
+}
+.nav-item a{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    transition: .2s;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #DC965A;
+}
+
+
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+}
+
+
+
+/* hero-part  */
+
+.hero_area{
+    background-image: url(../images/background5.jpg);
+    background-size: cover;
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.hero_area::before{
+    position: absolute;
+    content:'';
+    background-color: #100f0f7d;
+    width: 100%;
+    height: 100%;
+}
+
+.hero_data{
+    color:white;
+     z-index: 1;
+     text-align: center;
+     padding-top: 8%;
+     
+}
+.hero_data h2{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero_data h1{
+    font-size: 65px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero_data a{
+    background-color: #a7a4a172;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 21px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+/* about-area  */
+.about_img{
+    width: 450px;
+    height: 460px;
+    background-color: #DC965A;
+    margin-left: 14%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+}
+.about_us {
+    background-color: #131416;
+    
+}
+
+.about_section{
+    display: flex;
+    align-items: center;
+}
+
+.about_data{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about_data h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.about_data h5 {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.about_data p{
+    color: #a7a4a172;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 30px;
+}
+
+.about_data span{
+    color: #DC965A;
+}
+
+
+.cv_button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color: #DC965A;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about_data a {
+    color: white;
+text-decoration: none;
+}
+
+.service_title{
+    text-align: center;
+    padding-top: 80px;
+    background-color: #1C1D24;
+    position: relative;
+}
+
+.service_title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.service_title::before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #DC965A;
+    position: absolute;
+    top: 127px;
+    left: 654px;
+}
+    
+
+.service_title p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 410px;
+    color: #a7a4a172;
+
+}
+
