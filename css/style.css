@@ -277,6 +277,67 @@ text-decoration: none;
     padding-bottom: 10px;
 }
 
+.bg_hire{
+    background-color: #131416;
+    padding: 110px 0px;
+}
+.hire_data{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.hire_me{
+    text-align: center;
+}
+
+.hire_me p {
+    color: #DC965A;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size:42px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.hire_btn{
+    padding: 12px 32px;
+    background-color: #DC965A;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.hire_btn a{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.icons{
+    font-size: 20px;
+}
+
+.icons i {
+    color:#ffffff;
+    padding-left: 5px;
+}
+
+.bg_footer{
+    background-color: #1C1D24;
+}
+
+.copyright{ 
+    color: #ffffff;
+    padding-top: 3px;
+
+}
 
 
 
