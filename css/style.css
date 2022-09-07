@@ -473,3 +473,29 @@ text-decoration: none;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
 }
+
+.contact_area{
+    background: linear-gradient(90deg, rgba(26,26,26,1) 40%, rgba(19,20,22,1) 40%);
+    max-width: 100%;
+    max-height: 800px;
+}
+
+.input_50{
+    width: 40%;
+}
+
+
+.input_100{
+    width: 80%;
+    background: none;
+    color: #1C1D24;
+}
+
+.button{
+    background-color: #DC965A;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+
+}
+
