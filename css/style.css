@@ -471,7 +471,7 @@ text-decoration: none;
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito'sans-serif;
 }
 
 .contact_area{
@@ -481,21 +481,151 @@ text-decoration: none;
 }
 
 .input_50{
-    width: 40%;
+    width: 270px;
+    padding: 6px 5px;
+    
+}
+.space{
+    margin-right: 20px;
 }
 
+input{
+    margin-bottom: 25px;
+    background-color: #131416;
+    border: 2px solid #DC965A ;
+    color: #ed0e0e;
+    font-family: 'Nunito'sans-serif;
+    font-size: 15px; 
+    
+}
+
+textarea{
+    margin-bottom: 25px;
+    padding: 6px 5px;
+    background-color: #131416;
+    border: 2px solid #DC965A;
+    font-family: 'Nunito'sans-serif;
+    font-size: 15px; 
+    color: #ffffff;
+    
+}
+input::placeholder{
+    color: #ffffff;
+    font-family: 'Nunito'sans-serif;
+    font-size: 15px; 
+}
+textarea::placeholder{
+    color: #ffffff;
+    font-family: 'Nunito'sans-serif;
+    font-size: 15px; 
+}
+
+textarea:focus{
+    outline: 0px;
+}
+
+input:focus{
+    outline: 0px;
+}
 
 .input_100{
-    width: 80%;
-    background: none;
-    color: #1C1D24;
+    width: 564px;
+    padding: 6px 5px;
 }
 
 .button{
     background-color: #DC965A;
     color: #ffffff;
     text-decoration: none;
-    padding: 15px 20px 15px 20px;
+    /* padding: 15px 20px 15px 20px; */
+    padding: 12px 20px;
 
 }
 
+.bg-con{
+    background-color: #1C1D24;
+    margin-top: 110px;
+    margin-left: 25px;
+    margin-bottom: 110px;
+}
+
+
+.contact_form{
+    padding: 30px 25px;
+}
+
+.contact_form h2{
+    font-family: 'Nunito'sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.contact_me::before{
+    content:"";
+    width: 8%;
+    height: 4px;
+    background-color: #DC965A;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+
+.contact_data{
+    margin-bottom: 80px ;
+}
+.contact_details{
+    font-family: 'Nunito'sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 25px;
+    
+}
+
+.contact_details::before{
+    content:"";
+    width: 8%;
+    height: 4px;
+    background-color: #DC965A;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+.contact_info{
+    margin-top: 110px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.icon{
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: red;
+    font-size: 28px;
+    text-align: center;
+    padding: 4%;
+    position:relative;
+
+}
+
+
+.icon_data{
+    font-family: 'Nunito'sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #dc5a5a;
+    width:165px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+ 
