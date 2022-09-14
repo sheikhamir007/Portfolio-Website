@@ -1,6 +1,36 @@
 *{
     box-sizing: border-box;
+    
 }
+
+html{
+    scroll-behavior: smooth; 
+}
+
+#about{
+    padding-top: 50px;
+}
+
+#service{
+    padding-top: 50px; 
+    background-color: #131416
+}
+
+#skill{
+    padding-top: 30px; 
+    background-color: #131416
+}
+
+#project{
+    padding-top: 50px; 
+    background-color: #131416
+}
+#hire{
+    padding: 20px; 
+    background-color: #131416
+}
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
@@ -8,6 +38,10 @@
 
 .P0{
     padding: 0px;
+}
+
+.mt_100{
+    margin-top: 110px;
 }
 
 .nav-item{
@@ -141,11 +175,51 @@
     background-color: #DC965A;
     font-size: 14px;
     font-weight: 700;
+    
 }
 
 .about_data a {
     color: white;
 text-decoration: none;
+}
+
+.about_me{
+    display: flex;
+}
+
+.my_contact_info{
+    margin-left: 75px;
+    
+}
+
+span.info{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 15px;
+}
+
+span.data{
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: #a7a4a172;
+    padding-left: 5px;
+    
+}
+
+
+.about_me p{
+    padding-bottom: 0px;
+}
+
+
+.my_info p{
+    color: #ffffff;
+}
+.my_contact_info p{
+    color: #ffffff;
 }
 
 .service_title{
@@ -177,9 +251,14 @@ text-decoration: none;
     font-size: 13px;
     font-weight: 500;
     font-family: 'Nunito', sans-serif;
-    padding: 10px 410px;
     color: #a7a4a172;
+    max-width: 500px;
+}
 
+.service_text{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
 }
 
 .service_area{
@@ -576,6 +655,7 @@ input:focus{
 
 .contact_data{
     margin-bottom: 80px ;
+    /* position: relative; */
 }
 .contact_details{
     font-family: 'Nunito'sans-serif;
@@ -616,16 +696,27 @@ input:focus{
 
 }
 
+.contact_data p{
+    color: #DC965A;
+}
+
+
 
 .icon_data{
     font-family: 'Nunito'sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: #dc5a5a;
-    width:165px;
+    width: 165px;
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    right: -182px;
+    top: -1px;
+    text-align: initial;
 }
  
+@media (min-width:300px) { 
+    .project_margin {
+        margin-left: 0px;
+    }
+}
